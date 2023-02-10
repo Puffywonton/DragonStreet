@@ -1,0 +1,28 @@
+.burgerPlaceHolder {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.menuItemList{
+    width: 45%;
+}
+
+.menuItemList :hover{
+  background-color: lightgray;
+  transition-duration: 250ms;
+}
+
+.menuItemCard {
+    margin-bottom: 10px;
+}
+
+.menuItemDescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItemDescription div{
+    font-weight: bold;
+}
