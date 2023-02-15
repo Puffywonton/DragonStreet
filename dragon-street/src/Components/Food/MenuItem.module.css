@@ -1,28 +1,57 @@
 .burgerPlaceHolder {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.List{
     width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.menuItemList{
-    width: 45%;
-}
-
-.menuItemList :hover{
+/* .List :hover{
   background-color: lightgray;
-  transition-duration: 250ms;
+  transition-duration: 150ms;
+} */
+
+.Card {
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
-.menuItemCard {
-    margin-bottom: 10px;
-}
-
-.menuItemDescription{
+.Top{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menuItemDescription div{
+.Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Top div{
     font-weight: bold;
+}
+
+.Presentation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.Options {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 1rem;
+}
+
+.Options h4{
+    padding-left: 1rem;
 }
